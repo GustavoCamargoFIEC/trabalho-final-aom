@@ -60,5 +60,7 @@ body::-webkit-scrollbar-thumb {
 }
 
 main {
+    height: calc(100vh - 90px);
     margin-top: 90px;
+    background: linear-gradient(rgba(26,31,33,1) 0%, rgba(220,220,220,1) 100%);
 }

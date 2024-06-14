@@ -1,0 +1,11 @@
+#carouselExampleIndicators {
+    height: 100%;
+    display: flex;
+}
+#content {
+    width: 50%;
+    margin: auto;
+}
+.carousel-item p {
+    color: white;
+}
