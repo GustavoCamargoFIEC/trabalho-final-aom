@@ -28,7 +28,14 @@ body::-webkit-scrollbar-thumb {
     text-align: right;
     padding: 10px 20px;
     background-color: var(--cor5) !important;
-    color: ;
+}
+#header p {
+    margin: 0;
+    height: 25px;
+    line-height: 26px;
+    background-image: linear-gradient(to bottom, var(--cor1), var(--cor2));
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
 #logo-nav {
     height: 100%;
