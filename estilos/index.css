@@ -5,27 +5,57 @@
     position: absolute;
     top: 0;
     left: 0;
-    width: 50%;
-    height: calc(100vh - 90px);
-    margin-left: 50% !important;
-    margin-top: 90px;
+    width: 100%;
+    height: calc(100vh - 110px);
+    margin-top: 110px;
     display: flex;
+    justify-content: space-evenly;
 }
-#content p {
-    width: 500px !important;
+#texto {
+    width: 600px !important;
     margin: auto !important;
-    background-color: var(--cor5);
+    background-color: #040227e6;
     border-radius: 30px 0px;
-    color: var(--cor1);
+    color: white;
     text-shadow: 2px 2px 5px black;
     text-align: center;
     padding: 20px;
-    font-size: 2em;
-    box-shadow: 0px 0px 5px black;
+    font-size: 3em;
+    box-shadow: 0px 0px 10px black;
+}
+#controles {
+    background-color: #040227e6;
+    margin: auto !important;
+    margin-left: 0px !important;
+    list-style: none;
+    width: 600px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    border-radius: 20px;
+    box-shadow: 0px 0px 10px black;
+}
+#controles button {
+    background-color: transparent;
+    border: none;
+    width: 100%;
+    border-bottom: 1px solid var(--cor2);
+}
+#controles li {
+    font-size: 4em;
+    width: 90%;
+    padding: 10px;
+    color: white;
+    text-align: left;
+}
+#controles li i {
+    width: 70px;
 }
 
 .carousel-item {
-    margin-top: -90px;
+    margin-top: -110px;
     width: 100vw;
     height: 100vh;
 }
@@ -34,11 +64,10 @@
     height: 100%;
     object-fit: cover;
 }
- /* .shade {
-    width: 100vw;
-    height: 100vh;
-    position: absolute;
-    top: 0;
-    left: 0;
-    background: linear-gradient(to right, transparent, rgba(148, 148, 148, 0.329));
- } */
+
+.indicador {
+    background-color: var(--cor2) !important;
+}
+.indicador.active {
+    background-color: var(--cor1) !important;
+}
