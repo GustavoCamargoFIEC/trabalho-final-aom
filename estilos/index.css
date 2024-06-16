@@ -12,46 +12,49 @@
     justify-content: space-evenly;
 }
 #texto {
-    width: 600px !important;
+    width: 650px !important;
+    height: 400px !important;
     margin: auto !important;
     background-color: #040227e6;
     border-radius: 30px 0px;
     color: white;
     text-shadow: 2px 2px 5px black;
     text-align: center;
-    padding: 20px;
+    padding: 50px;
     font-size: 3em;
-    box-shadow: 0px 0px 10px black;
+    box-shadow: 0px 0px 20px var(--cor4);
 }
-#controles {
-    background-color: #040227e6;
+#interacao {
+    background-color: hsla(204, 92%, 21%, 0.9);
     margin: auto !important;
     margin-left: 0px !important;
     list-style: none;
     width: 600px;
+    height: 400px !important;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    gap: 5px;
     padding: 20px;
     border-radius: 20px;
-    box-shadow: 0px 0px 10px black;
 }
-#controles button {
+#interacao button {
     background-color: transparent;
     border: none;
     width: 100%;
-    border-bottom: 1px solid var(--cor2);
+    box-shadow: 0px 0px 15px var(--cor1);
+    border-radius: 20px;
 }
-#controles li {
+#interacao li {
     font-size: 4em;
     width: 90%;
     padding: 10px;
     color: white;
     text-align: left;
 }
-#controles li i {
-    width: 70px;
+#interacao li i {
+    width: 80px;
 }
 
 .carousel-item {

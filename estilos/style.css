@@ -17,6 +17,11 @@
     padding: 10px 20px;
     background-color: var(--cor5) !important;
 }
+#header a {
+    width: 170px;
+    height: 60px;
+    font-size: 30px;
+}
 #header p {
     margin: 0;
     height: 25px;
