@@ -26,16 +26,37 @@
   </nav>
     
     <main>
-       <form action="">
-        <title>Formulário para contato</title>
-          <label for="fNome">Nome: </label>
-            <input id="fNome" type="text">
-          <label for="fEmail">Email: </label>
-            <input id="fEmail" type="email">
-          <label for="fTelefone">Telefone: </label>
-            <input id="fTelefone" type="number">
-          <input id="submit" type="submit">
-       </form>
+       <div id="content">
+         <form action="">
+            <p>Preencha este formulário e faça um orçamento com a gente:</p>
+              <label for="fAssunto">Assunto</label>
+                <select name="nAssunto" id="fAssunto">
+                  <option value="geral">Geral</option>
+                  <option value="hardware">Hardware</option>
+                  <option value="software">Software</option>
+                  <option value="redes">Redes</option>
+                </select>
+              <label for="fNome">Nome: </label>
+                <input id="fNome" type="text">
+              <label for="fEmail">Email: </label>
+                <input id="fEmail" type="email">
+              <label for="fTelefone">Telefone: </label>
+                <input id="fTelefone" type="number">
+              <label for="fMensagem">Digite sua mensagem:</label>
+                <textarea name="nMensagem" id="fMensagem"></textarea>
+              <input id="submit" type="submit">
+         </form>
+         <div id="instagram">
+            <p>Ou tire sua dúvida pelo instagram!</p>
+            <ul>
+              <li><i class="fa-brands fa-instagram"></i> brawl_tech</li>
+              <li><i class="fa-brands fa-instagram"></i> _gustc_</li>
+              <li><i class="fa-brands fa-instagram"></i> arthur.saants</li>
+              <li><i class="fa-brands fa-instagram"></i> japa._.l</li>
+              <li><i class="fa-brands fa-instagram"></i> japa.hz</li>
+            </ul>
+         </div>
+       </div>
     </main>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
 </body>
