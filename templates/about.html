@@ -27,15 +27,18 @@
     
     <main>
         <div id="content">
-          <p>oi eu sou o lucas</p>
-          <img src="../img/redes.png" alt="">
+          <div id="textoS">
+            <h1 id="titS">CONHEÇA NOSSA EQUIPE!</h1>
+            <p id="parS">A Brawl Tech é sua parceira de confiança em soluções tecnológicas desde 2024.<br><br> Com uma paixão por inovação e excelência, oferecemos um portfólio abrangente de serviços relacionados à software, hardware e redes.<br><br> Nossa missão é capacitar nossos clientes a alcançar o sucesso através de soluções personalizadas que impulsionam o desempenho e a eficiência.<br><br> Alie-se a nós na jornada para transformar o futuro da tecnologia!</p>
+          </div>
+          <img id="imagemS" src="../img/redes.png" alt="">
         </div>
         <ul id="icons">
-          <li><img src="../img/logo.png" alt=""></li>
-          <li><i class="fa-solid fa-microchip"></i></li>
-          <li><i class="fa-solid fa-laptop-code"></i></li>
-          <li><i class="fa-solid fa-server"></i></li>
-          <li><i class="fa-solid fa-user-tie"></i></li>
+          <li><img id="eqp" onclick="mudarAbout('eqp')" src="../img/logo.png" alt=""></li>
+          <li><i id="hard" onclick="mudarAbout('hard')" class="fa-solid fa-microchip"></i></li>
+          <li><i id="sfot" onclick="mudarAbout('soft')" class="fa-solid fa-laptop-code"></i></li>
+          <li><i id="rede" onclick="mudarAbout('rede')" class="fa-solid fa-server"></i></li>
+          <li><i id="mkt" onclick="mudarAbout('mkt')" class="fa-solid fa-user-tie"></i></li>
         </ul>
     </main>
     <script src="../scripts/about.js"></script>

@@ -101,6 +101,8 @@
     width: 70%;
 }
 .orcamento {
+    text-decoration: none;
+    cursor: pointer;
     position: absolute;
     top: 90%;
     background-color: var(--cor2);

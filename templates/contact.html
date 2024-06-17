@@ -32,18 +32,18 @@
               <label for="fAssunto">Assunto</label>
                 <select name="nAssunto" id="fAssunto">
                   <option value="geral">Geral</option>
-                  <option value="hardware">Hardware</option>
-                  <option value="software">Software</option>
-                  <option value="redes">Redes</option>
+                  <option id="optHard" value="hardware">Hardware</option>
+                  <option id="optSoft" value="software">Software</option>
+                  <option id="optRede" value="redes">Redes</option>
                 </select>
               <label for="fNome">Nome: </label>
-                <input id="fNome" type="text">
+                <input id="fNome" type="text" required>
               <label for="fEmail">Email: </label>
-                <input id="fEmail" type="email">
+                <input id="fEmail" type="email" required>
               <label for="fTelefone">Telefone: </label>
-                <input id="fTelefone" type="number">
+                <input id="fTelefone" type="tel" pattern="^\(\d{2}\)\d{4,5}-\d{4}$" required placeholder="(xx)xxxxx-xxxx">
               <label for="fMensagem">Digite sua mensagem:</label>
-                <textarea name="nMensagem" id="fMensagem"></textarea>
+                <textarea name="nMensagem" id="fMensagem" required></textarea>
               <input id="submit" type="submit">
          </form>
          <div id="instagram">
