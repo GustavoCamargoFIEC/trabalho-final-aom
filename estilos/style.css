@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Lilita+One&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 :root {
     --cor1: #0896f7;
     --cor2: #8335f1;
@@ -8,7 +8,7 @@
     --cor5: #040225;
 
     --fonte1: 'Lilita One';
-    --fonte2: 'Roboto';
+    --fonte2: 'Kanit';
 }
 
 #header {
@@ -16,11 +16,18 @@
     text-align: right;
     padding: 10px 20px;
     background-color: var(--cor5) !important;
+    border-radius: 20px;
+    margin: 20px;
 }
 #header a {
-    width: 170px;
+    width: 180px;
     height: 60px;
     font-size: 30px;
+    font-weight: bolder;
+}
+#header i {
+    width: 40px;
+    height: 40px;
 }
 #header p {
     margin: 0;
@@ -46,7 +53,7 @@
     display: flex;
     justify-content: right;
     font-size: 1.2em;
-    font-family: var(--fonte1);
+    font-family: var(--fonte2);
 }
 
 .nav-link {
@@ -55,6 +62,7 @@
     width: 120px;
 }
 .nav-link:hover {
+    transition: 0.4s;
     color: var(--cor3) !important;
 }
 .nav-link.active {
@@ -64,6 +72,7 @@
 }
 
 main {
-    height: calc(100vh - 110px);
-    margin-top: 110px;
+    height: 100vh;
+    background-color: var(--cor5);
+    font-family: 'Kanit';
 }

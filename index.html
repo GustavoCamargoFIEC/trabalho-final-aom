@@ -27,62 +27,69 @@
     </nav>
 
     <main>
-        <div id="carouselExampleIndicators" class="carousel slide carousel-fade">
-            <div class="carousel-indicators">
-              <button id="slide1" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="indicador active" aria-current="true" aria-label="Slide 1"></button>
-              <button id="slide2" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" class="indicador" aria-label="Slide 2"></button>
-              <button id="slide3" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" class="indicador" aria-label="Slide 3"></button>
-              <button id="slide4" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3" class="indicador" aria-label="Slide 4"></button>
-            </div>
-            <div class="carousel-inner">
-              <div class="carousel-item active">
-                <img src="img/inicio.png" class="d-block w-100" alt="...">
-                <div id="content">
-                  <p id="texto">Conheça a melhor <br>empresa de soluções tecnológicas do mundo!<br>
-                    Confira nossos serviços!</p>
-                  <ul id="interacao">
-                    <button type="button" data-bs-target="#carouselExampleIndicators" 
-                    data-bs-slide-to="1" aria-label="Slide 2">
-                      <li><i class="fa-solid fa-microchip"></i> Hardware</li></button>
-                    <button type="button" data-bs-target="#carouselExampleIndicators" 
-                    data-bs-slide-to="2" aria-label="Slide 3">
-                      <li><i class="fa-solid fa-laptop-code"></i> Software</li></button>
-                    <button type="button" data-bs-target="#carouselExampleIndicators" 
-                    data-bs-slide-to="3" aria-label="Slide 4">
-                      <li><i class="fa-solid fa-server"></i> Redes</li></button>
-                  </ul>
-                </div>
-              </div>
-              <div class="carousel-item">
-                <img src="img/hardware.png" class="d-block w-100" alt="...">
-                <div id="content">
-                  <p id="texto">hardware</p>
-                  
-                </div>
-              </div>
-              <div class="carousel-item">
-                <img class="imagem" src="img/software.png" class="d-block w-100" alt="...">
-                <div class="shade"></div>
-                <div id="content">
-                  <p id="texto">software</p>
-                </div>
-              </div>
-              <div class="carousel-item">
-                <img src="img/redes.png" class="d-block w-100" alt="...">
-                <div id="content">
-                  <p id="texto">redes</p>
-                </div>
+      <div id="carouselExampleIndicators" class="carousel slide carousel-fade">
+
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img id="imagem" src="img/inicio.png" class="d-block w-100" alt="...">
+              <div id="content-main">
+                <p id="texto">Conheça a melhor <br>empresa de soluções tecnológicas do mundo!<br>
+                  Confira nossos serviços!</p>
+                <ul id="interacao">
+                  <button type="button" data-bs-target="#carouselExampleIndicators" 
+                  data-bs-slide-to="1" aria-label="Slide 2">
+                    <li><i class="fa-solid fa-microchip"></i> Hardware</li></button>
+                  <button type="button" data-bs-target="#carouselExampleIndicators" 
+                  data-bs-slide-to="2" aria-label="Slide 3">
+                    <li><i class="fa-solid fa-laptop-code"></i> Software</li></button>
+                  <button type="button" data-bs-target="#carouselExampleIndicators" 
+                  data-bs-slide-to="3" aria-label="Slide 4">
+                    <li><i class="fa-solid fa-server"></i> Redes</li></button>
+                </ul>
               </div>
             </div>
-            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
-              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-              <span class="visually-hidden">Previous</span>
-            </button>
-            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
-              <span class="carousel-control-next-icon" aria-hidden="true"></span>
-              <span class="visually-hidden">Next</span>
-            </button>
+
+            <div class="carousel-item">
+              <img src="img/hardware.png" class="d-block w-100" alt="...">                
+              <p class="titulo">Hardware</p>
+              <div id="content">
+                <button class="voltar" type="button" data-bs-target="#carouselExampleIndicators" 
+                data-bs-slide-to="0" aria-label="Slide 1"><i class="fa-solid fa-caret-left"></i> Voltar</button>
+                <p class="especificacoes">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum provident excepturi commodi eaque rerum dolorum animi, quam esse ex sint, architecto laboriosam culpa, magni aspernatur sed recusandae error nulla distinctio?
+                </p>
+                <button class="orcamento">Fazer orçamento</button>
+              </div>
+            </div>
+
+            <div class="carousel-item">
+              <img src="img/software.png" class="d-block w-100" alt="...">                
+              <p class="titulo">Software</p>
+              <div id="content">
+                <button class="voltar" type="button" data-bs-target="#carouselExampleIndicators" 
+                data-bs-slide-to="0" aria-label="Slide 1"><i class="fa-solid fa-caret-left"></i> Voltar</button>
+                <p class="especificacoes">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum provident excepturi commodi eaque rerum dolorum animi, quam esse ex sint, architecto laboriosam culpa, magni aspernatur sed recusandae error nulla distinctio?
+                </p>
+                <button class="orcamento">Fazer orçamento</button>
+              </div>
+            </div>
+
+            <div class="carousel-item">
+              <img src="img/redes.png" class="d-block w-100" alt="...">                
+              <p class="titulo">Redes</p>
+              <div id="content">
+                <button class="voltar" type="button" data-bs-target="#carouselExampleIndicators" 
+                data-bs-slide-to="0" aria-label="Slide 1"><i class="fa-solid fa-caret-left"></i> Voltar</button>
+                <p class="especificacoes">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum provident excepturi commodi eaque rerum dolorum animi, quam esse ex sint, architecto laboriosam culpa, magni aspernatur sed recusandae error nulla distinctio?
+                </p>
+                <button class="orcamento">Fazer orçamento</button>
+              </div>
+            </div>
+
           </div>
+        </div>
     </main>
     <script src="scripts/about.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
