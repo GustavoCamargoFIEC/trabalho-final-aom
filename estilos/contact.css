@@ -1,0 +1,29 @@
+form {
+    background-color: var(--cor5);
+    position: absolute;
+    width: 500px;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    font-size: 2em;
+}
+form label {
+    color: white;
+}
+#submit {
+    color: white;
+    background-color: var(--cor3);
+    width: 50%;
+    border: none;
+    margin: auto;
+    margin-top: 10px;
+    border-radius: 10px;
+    transition: 0.5s;
+}
+#submit:hover {
+    transition: 0.5s;
+    background-color: var(--cor2);
+}
