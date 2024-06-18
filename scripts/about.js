@@ -12,19 +12,22 @@ function mudarAbout(tipo) {
     if (tipo== 'eqp') {
         tit.innerHTML= "CONHEÇA NOSSA EQUIPE!"
         par.innerHTML= "A Brawl Tech é sua parceira de confiança em soluções tecnológicas desde 2024.<br><br> Com uma paixão por inovação e excelência, oferecemos um portfólio abrangente de serviços relacionados à software, hardware e redes.<br><br> Nossa missão é capacitar nossos clientes a alcançar o sucesso através de soluções personalizadas que impulsionam o desempenho e a eficiência.<br><br> Alie-se a nós na jornada para transformar o futuro da tecnologia!"
-        img.src= "../img/hardware.png"
+        img.src= "../img/equipe.png"
     }
     if (tipo== 'hard') {
-        tit.innerHTML= "LUCAS KENZO KOBAYASHI"
+        tit.innerHTML= "VINICIUS NAKADA MACEDO"
         par.innerHTML= "Conheça nosso especialista em hardware, um profissional dedicado que está na vanguarda da inovação tecnológica.<br><br> Com vasta experiência e conhecimento técnico, ele é responsável por desenvolver e otimizar soluções de hardware que são o coração de nossos sistemas integrados.<br><br> Comprometido com a excelência, nosso especialista garante que cada componente atenda aos mais altos padrões de qualidade e desempenho, possibilitando que nossos clientes superem os desafios tecnológicos de hoje e de amanhã."
+        img.src= "../img/vinicius.png"
     }
     if (tipo== 'soft') {
-        tit.innerHTML= "VINICIUS NAKADA MACEDO"
+        tit.innerHTML= "LUCAS KENZO KOBAYASHI"
         par.innerHTML= "Apresentamos nosso talentoso profissional de software, cuja criatividade e habilidade técnica impulsionam o desenvolvimento de soluções inovadoras.<br><br> Ele combina uma compreensão profunda das necessidades do cliente com uma abordagem ágil e adaptativa para criar ou adequar aplicativos e sistemas que não apenas atendem, mas superam as expectativas.<br><br> Seu compromisso com a codificação de qualidade e a melhoria contínua é fundamental para entregar produtos que definem o padrão em usabilidade, confiabilidade e eficiência."
+        img.src= "../img/lucas.png"
     }
     if (tipo== 'rede') {
         tit.innerHTML= "ARTHUR SANTOS"
         par.innerHTML= "Apresentamos o nosso especialista em redes, um estrategista de conectividade e segurança que garante que nossas soluções de rede sejam robustas e confiáveis.<br><br> Com um olhar atento para a arquitetura de rede e uma compreensão profunda dos protocolos de comunicação, ele projeta e mantém infraestruturas que suportam o fluxo contínuo de informações.<br><br> Sua dedicação à inovação e à segurança cibernética é essencial para fornecer aos nossos clientes uma rede que não apenas conecta, mas também protege seus valiosos dados."
+        img.src= "../img/arthur.png"
     }
     if (tipo== 'mkt') {
         tit.innerHTML= "GUSTAVO HENRIQUE DE CAMARGO"
